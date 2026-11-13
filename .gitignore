@@ -1,0 +1,35 @@
+# === PyInstaller ===
+build/
+dist/
+*.spec
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Environnement virtuel ===
+venv/
+.venv/
+env/
+ENV/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Fichiers système ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === Fichiers de sauvegarde utilisateur ===
+# (Les configs JSON sont spécifiques à chaque utilisateur)
+autoclicker_actions.json
+
+# === Logs ===
+*.log
