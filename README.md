@@ -43,6 +43,15 @@ Aucune installation requise !
 2. Téléchargez le fichier `AutoClicker.exe`
 3. Lancez-le. C'est tout !
 
+## 📦 Installation des dépendances (si téléchargé depuis le .ZIP) 
+
+Pour exécuter le projet depuis le code source, vous devez d'abord installer les bibliothèques requises.
+
+Ouvrez votre terminal (CMD ou PowerShell) à la racine du dossier du projet et exécutez la commande suivante :
+
+```bash
+pip install -r requirements.txt
+
 ### 🔹 Pour les développeurs (depuis le code source)
 
 ```bash
