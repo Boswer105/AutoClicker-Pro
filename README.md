@@ -43,7 +43,7 @@ Aucune installation requise !
 2. Téléchargez le fichier `AutoClicker.exe`
 3. Lancez-le. C'est tout !
 
-## 📦 Installation des dépendances (si téléchargé depuis le .ZIP) 
+## 📦 Installation des dépendances (si téléchargé depuis le code source .ZIP) 
 
 Pour exécuter le projet depuis le code source, vous devez d'abord installer les bibliothèques requises.
 
@@ -51,16 +51,7 @@ Ouvrez votre terminal (CMD ou PowerShell) à la racine du dossier du projet et e
 
 ```bash
 pip install -r requirements.txt
+```
 
-### 🔹 Pour les développeurs (depuis le code source)
 
-```bash
-# Cloner le dépôt
-git clone https://github.com/VOTRE_PSEUDO/AutoClicker-Pro.git
-cd AutoClicker-Pro
 
-# Installer les dépendances
-pip install pynput
-
-# Lancer le programme
-python autoclicker.py
