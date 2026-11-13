@@ -19,6 +19,8 @@
 - 💾 **Sauvegarde JSON** — Exportez et importez vos configurations en un clic.
 - 🧵 **Exécution en Thread** — L'interface reste fluide pendant l'automatisation.
 
+  <img width="698" height="829" alt="Capture d&#39;écran 2026-11-13 151233" src="https://github.com/user-attachments/assets/91118c10-ff8a-4b9e-9222-ff9580c69a91" />
+
 ---
 
 ## ⌨️ Raccourcis Clavier
