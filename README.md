@@ -61,4 +61,5 @@ git clone https://github.com/Boswer105/AutoClicker-Pro.git
 cd AutoClicker-Pro
 pip install -r requirements.txt
 python autoclicker.py
+(Pour compiler votre propre .exe sans fenêtre CMD, une fois les dépendances installées : python -m PyInstaller --noconsole --onefile autoclicker.py)
 ```
