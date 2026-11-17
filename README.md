@@ -35,31 +35,24 @@
 
 ## 🚀 Installation
 
-### 🔹 Pour les utilisateurs (méthode rapide)
-
+### 🔹 1. Pour les utilisateurs (Méthode rapide)
 Aucune installation requise !
-
-1. Allez dans l'onglet **[Releases](https://github.com/VOTRE_PSEUDO/AutoClicker-Pro/releases)**
+1. Allez dans l'onglet **[Releases](https://github.com/Boswer105/AutoClicker-Pro/releases)**
 2. Téléchargez le fichier `AutoClicker.exe`
 3. Lancez-le. C'est tout !
 
-## 📦 Installation des dépendances (si téléchargé depuis le code source .ZIP) 
-
-Pour exécuter le projet depuis le code source, vous devez d'abord installer les bibliothèques requises.
-
-Ouvrez votre terminal (CMD ou PowerShell) à la racine du dossier du projet et exécutez la commande suivante :
-
-```bash
-pip install -r requirements.txt
-```
-
-## 🔹 Pour les développeurs (Depuis le code source)
+### 🔹 2. Pour les développeurs (Depuis le code source)
 Si vous préférez compiler le projet vous-même ou modifier le code :
 
 ```bash
 git clone https://github.com/Boswer105/AutoClicker-Pro.git
 cd AutoClicker-Pro
 pip install -r requirements.txt
-python autoclicker.py
-(Pour compiler votre propre .exe sans fenêtre CMD, une fois les dépendances installées : python -m PyInstaller --noconsole --onefile autoclicker.py)
+python autoclicker.py les dépendances installées : python -m PyInstaller --noconsole --onefile autoclicker.py)
 ```
+💡 Compiler votre propre .exe (sans fenêtre CMD) :
+
+```
+python -m PyInstaller --noconsole --onefile autoclicker.py
+```
+Le fichier exécutable sera disponible dans le dossier dist/.
