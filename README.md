@@ -53,5 +53,12 @@ Ouvrez votre terminal (CMD ou PowerShell) à la racine du dossier du projet et e
 pip install -r requirements.txt
 ```
 
+## 🔹 Pour les développeurs (Depuis le code source)
+Si vous préférez compiler le projet vous-même ou modifier le code :
 
-
+```bash
+git clone https://github.com/Boswer105/AutoClicker-Pro.git
+cd AutoClicker-Pro
+pip install -r requirements.txt
+python autoclicker.py
+```
