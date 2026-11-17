@@ -1,4 +1,5 @@
 # Dépendances principales pour AutoClicker Pro
 pynput>=1.7.6
 
-# pyinstaller>=6.0.0
+# Outil de compilation (pour générer le .exe)
+pyinstaller>=6.0.0
